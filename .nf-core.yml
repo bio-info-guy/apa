@@ -1,0 +1,22 @@
+bump_version: null
+lint:
+  files_exist:
+  - conf/igenomes.config
+  - conf/igenomes_ignored.config
+  - conf/igenomes.config
+  - conf/igenomes_ignored.config
+nf_core_version: 3.0.2
+org_path: null
+repository_type: pipeline
+template:
+  author: Yangqi Su
+  description: Analysis of alternative polyadenylation from RNA-seq
+  force: true
+  is_nfcore: true
+  name: apa
+  org: nf-core
+  outdir: .
+  skip_features:
+  - igenomes
+  version: 0.1dev
+update: null
